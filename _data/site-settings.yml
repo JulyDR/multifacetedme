@@ -1,0 +1,25 @@
+seo:
+  site_name: Multifaceted Me
+  title: Multifaceted Me - Discovering All I Can Be
+  description: Step into the captivating world of a mid-thirties woman's sabbatical
+    journey. Dive into her world of learning new skills, enjoying life and trying to build her own business, featuring
+    surfing, meditation, dancing, and web development.
+  keywords: self discovery, personal growth, find your passion, Start over, selflove, positive mindset, self development
+  social_image:
+  author: Julia
+  favicon_image:
+social:
+  instagram_username:
+  facebook_url:
+  twitter_username:
+design:
+  dark-text_color: '#3c3c41'
+  medium-text_color: '#5a5a5f'
+  light-text_color: '#f7f5f3'
+  featured-text_color: '#a85e3e'
+  dark_color: '#3c3c41'
+  medium_color: '#ede8e4'
+  light_color: '#f7f5f3'
+  v-light_color: '#f9f9f9'
+  featured_color: '#efe5dc'
+  accent_color: '#a74a4a'
