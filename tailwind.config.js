@@ -8,7 +8,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Figtree', 'sans-serif'],
+      sans: ['Mulish', 'sans-serif'],
       serif: ['Playfair Display', 'serif'],
     },
     extend: {
