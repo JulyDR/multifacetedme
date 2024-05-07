@@ -1,34 +1,40 @@
-var navHambBtn = document.querySelectorAll("#hamb-btn");
+// Burger menus
+document.addEventListener('DOMContentLoaded', function() {
+  // open
+  const burger = document.querySelectorAll('.navbar-burger');
+  const menu = document.querySelectorAll('.navbar-menu');
 
-var check = true;
-navHambBtn.forEach(function(btn) {
-  btn.onclick = function() {
-    var navbar = btn.getAttribute("data-target");
-    check = !check;
-    if(check){
-      document.getElementById("hamb1").classList.toggle('block');
-      document.getElementById("hamb1").classList.toggle('hidden');
-      document.getElementById("hamb2").classList.toggle('block');
-      document.getElementById("hamb2").classList.toggle('hidden');
-      document.getElementById(navbar).classList.toggle('hidden');
-      document.getElementById(navbar).classList.toggle('flex');
-    }else{
-      document.getElementById("hamb2").classList.toggle('block');
-      document.getElementById("hamb2").classList.toggle('hidden');
-      document.getElementById("hamb1").classList.toggle('block');
-      document.getElementById("hamb1").classList.toggle('hidden');
-      document.getElementById(navbar).classList.toggle('flex');
-      document.getElementById(navbar).classList.toggle('hidden');
-    }
-  };
-});
+  if (burger.length && menu.length) {
+      for (var i = 0; i < burger.length; i++) {
+          burger[i].addEventListener('click', function() {
+              for (var j = 0; j < menu.length; j++) {
+                  menu[j].classList.toggle('hidden');
+              }
+          });
+      }
+  }
 
-var navDropBtn = document.querySelectorAll("#drop-nav");
+  // close
+  const close = document.querySelectorAll('.navbar-close');
+  const backdrop = document.querySelectorAll('.navbar-backdrop');
 
-navDropBtn.forEach(function(btn) {
-  btn.onclick = function() {
-    var dropMenu = btn.getAttribute("data-target");
-    document.getElementById(dropMenu).classList.toggle('hidden');
-    document.getElementById(dropMenu).classList.toggle('block');
-  };
+  if (close.length) {
+      for (var i = 0; i < close.length; i++) {
+          close[i].addEventListener('click', function() {
+              for (var j = 0; j < menu.length; j++) {
+                  menu[j].classList.toggle('hidden');
+              }
+          });
+      }
+  }
+
+  if (backdrop.length) {
+      for (var i = 0; i < backdrop.length; i++) {
+          backdrop[i].addEventListener('click', function() {
+              for (var j = 0; j < menu.length; j++) {
+                  menu[j].classList.toggle('hidden');
+              }
+          });
+      }
+  }
 });

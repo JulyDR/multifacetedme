@@ -1,38 +1,66 @@
-<div class="bg-slate-900 text-red-200 hover:bg-white hover:text-slate-900">
-  <div class="flex flex-col md:flex-row">
-    <div class="flex justify-between items-center px-4 py-4 md:py-0 border-b border-gray-600 md:border-0">
-      <div>
-        <a href="" class="font-semibold text-xl font-serif">Multifaceted Me</a>
-      </div>
-      <div>
-        <button class="focus:outline-none block md:hidden" id="hamb-btn" data-target="nav-body">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path id="hamb1" class="block" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-              <path id="hamb2" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
+	<nav class="relative px-4 py-8 flex flex-row justify-between items-center">
+    <div>
+      <a class="inline-block basis-4/5 lg:basis-1/4 font-serif tracking-wide text-xl hover:text-2xl center" href="/index.html">
+        <img src="images/Logo_black-02.png" class="h-10 inline-block" alt="logo">
+        <span>Multifaceted Me</span>
+      </a>
     </div>
-
-    <div class="hidden md:flex flex-col md:flex-row md:justify-between w-full py-2 md:py-0" id="nav-body">
-      <div class="flex flex-col md:flex-row md:items-center">
-        <a href="/about.html" class="px-4 py-3 md:py-5 block hover:text-white">About</a>
-        <a href="/blog.html" class="px-4 py-3 md:py-5 block hover:text-white">Blog</a>
-        <a href="/contact.html" class="px-4 py-3 md:py-5 block hover:text-white">Contact</a>
-
-      </div>
-      <div class="flex flex-col md:flex-row">
-        <a href="https://www.facebook.com" class="nav-link-social inline">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-        <a href="https://www.instagram.com" class="nav-link-social inline">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.tiktok.com" class="nav-link-social inline">
-          <i class="fa-brands fa-tiktok"></i>
-        </a>
-        <a class="nav-link" href="#"> Connect </a>
-      </div>
+    <div class="lg:basis-1/2">
+      <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6">
+        <li><a class="font-serif text-gray-800 border-solid rounded-full border-2 border-gray-800 py-1.5 px-4 hover:text-lg" href="/about.html">About</a></li>
+        <li><a class="font-serif text-gray-800 border-solid rounded-full border-2 border-gray-800 py-1.5 px-4 hover:text-lg" href="blog.html">Blog</a></li>
+      </ul>
     </div>
-  </div>
-</div>
+    <div class="lg:basis-1/5 text-right">
+      <a class="hidden lg:inline-block lg:ml-auto py-2 px-2 text-gray-900 font-bold transition duration-200 hover:text-lg" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+      <a class="hidden lg:inline-block lg:ml-auto py-2 px-2 text-gray-900 font-bold transition duration-200 hover:text-lg" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+      <a class="hidden lg:inline-block lg:ml-auto py-2 px-2 text-gray-900 font-bold transition duration-200 hover:text-lg" href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+      <a class="hidden lg:inline-block font-serif text-gray-900 transition duration-200 border-solid rounded-full border-2 border-gray-800 py-1.5 px-4 hover:text-lg" href="/contact">Connect</a>
+    </div>
+    <div class="lg:basis-5">
+			<button class="navbar-burger flex items-center text-neutral-950 p-3">
+				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<title>Mobile menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+  </nav>
+	<div class="navbar-menu relative z-50 hidden">
+		<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
+			<div class="flex items-center mb-8">
+        <a class="inline-block basis-4/5 font-serif tracking-wide text-xl hover:text-2xl center" href="/index.html">
+          <img src="images/Logo_black-02.png" class="h-10 inline-block" alt="logo">
+          <span>Multifaceted Me</span>
+        </a>
+				<button class="navbar-close">
+					<svg class="h-6 w-6 text-gray-800 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<div>
+				<ul>
+  				<li class="mb-1">
+						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-grey-50 hover:text-grey-600 rounded" href="/about.html">About</a>
+					</li>
+					<li class="mb-1">
+						<a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-grey-50 hover:text-grey-600 rounded" href="blog.html">Blog</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mt-auto">
+				<div class="pt-6">
+          <a class="inline lg:ml-auto py-2 px-2 text-gray-900 font-bold transition duration-200 hover:text-lg" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+          <a class="inline lg:ml-auto py-2 px-2 text-gray-900 font-bold transition duration-200 hover:text-lg" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a class="inline-block lg:ml-auto py-2 px-2 text-gray-900 font-bold transition duration-200 hover:text-lg" href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+					<a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Connect</a>
+				</div>
+				<p class="my-4 text-xs text-center text-gray-400">
+					<span>Copyright © 2021</span>
+				</p>
+			</div>
+		</nav>
+	</div>
+
