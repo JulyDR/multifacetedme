@@ -582,8 +582,8 @@ video {
   left: 50%;
 }
 
-.right-2 {
-  right: 0.5rem;
+.right-8 {
+  right: 2rem;
 }
 
 .top-0 {
@@ -594,8 +594,8 @@ video {
   top: 50%;
 }
 
-.top-2 {
-  top: 0.5rem;
+.top-8 {
+  top: 2rem;
 }
 
 .z-50 {
@@ -630,10 +630,6 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.ml-\[20\%\] {
-  margin-left: 20%;
 }
 
 .mt-auto {
@@ -676,8 +672,8 @@ video {
   height: 1.5rem;
 }
 
-.min-h-80 {
-  min-height: 80vh;
+.min-h-50 {
+  min-height: 50vh;
 }
 
 .w-4 {
@@ -799,9 +795,9 @@ video {
   background-color: rgb(204 173 161 / var(--tw-bg-opacity));
 }
 
-.bg-stone-100 {
+.bg-stone-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
 
 .bg-stone-300 {
@@ -824,6 +820,10 @@ video {
 
 .fill-current {
   fill: currentColor;
+}
+
+.p-10p {
+  padding: 10%;
 }
 
 .p-3 {
@@ -910,21 +910,21 @@ video {
 }
 
 .font-serif {
-  font-family: Playfair Display, serif;
+  font-family: Italiana, serif;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-\[10vw\] {
   font-size: 10vw;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-xl {
@@ -945,8 +945,8 @@ video {
   text-transform: uppercase;
 }
 
-.leading-\[0\.6\] {
-  line-height: 0.6;
+.leading-\[0\.7\] {
+  line-height: 0.7;
 }
 
 .leading-loose {
@@ -981,6 +981,11 @@ video {
   opacity: 0.45;
 }
 
+.hover\:border-accentlight:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(85 120 121 / var(--tw-border-opacity));
+}
+
 .hover\:bg-accentlight:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(85 120 121 / var(--tw-bg-opacity));
@@ -1012,6 +1017,14 @@ video {
     margin-right: auto;
   }
 
+  .lg\:-ml-\[20\%\] {
+    margin-left: -20%;
+  }
+
+  .lg\:ml-\[20\%\] {
+    margin-left: 20%;
+  }
+
   .lg\:ml-auto {
     margin-left: auto;
   }
@@ -1022,6 +1035,10 @@ video {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:min-h-80 {
+    min-height: 80vh;
   }
 
   .lg\:w-auto {
@@ -1048,6 +1065,15 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:p-5p {
+    padding: 5%;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
