@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ----------- ADDITIONAL COMPONENTS  --------- */
+
+@layer components {
+
+    .banner-image {
+        background-image: url('/images/volcano1.jpeg');
+    }
+    
+    .pic {height: auto;}
+}
