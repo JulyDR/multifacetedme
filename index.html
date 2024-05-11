@@ -11,6 +11,7 @@ seo:
 about-image: /images/guatemala1.jpeg
 ---
 
+<!-- Headline -->
 <section class="lg:ml-[20%] p-10p lg:p-5p bg-cover bg-center flex items-center lg:text-white min-h-50 lg:min-h-80 lg:banner-image">
   <div class="lg:-ml-[20%]"> 
      <h2 class="text-[10vw] mb-12 leading-[0.7] font-serif"> Discovering all <br> we can be. </h2> 
@@ -18,15 +19,53 @@ about-image: /images/guatemala1.jpeg
   </div> 
 </section> 
 
+<!-- Short About Introduction -->
 <section class="bg-stone-200 p-5p">
 <div class="grid md:grid-cols-2 max-w-screen-xl mx-auto">
   <div class="bg-cover bg-center h-52 md:pic" style="background-image: url('{{page.about-image}}')"> </div>
   <div class="py-5p md:py-15p px-8">
-    <h2 class="p-8 tracking-wide font-serif md:-ml-[20%] bg-accentlight text-3xl max-w-sm text-white"> Grow. Connect. <br> Be Multifaceted. </h2>
+    <h2 class="p-8 tracking-wide font-serif md:-ml-[20%] bg-accentdark text-3xl max-w-sm text-white"> Grow. Connect. <br> Be Multifaceted. </h2>
     <p class="my-4">Do you ever feel that nagging sense of "is this all there is?" Maybe your career feels like autopilot, or a voice whispers you're not reaching your full potential. You crave a life bursting with possiblity, one where you can conquer challenges and explore hidden talents. But fear and self-doubt are holding you back.</p>
     <p class="my-4">We get it. Life can get comfortable, but comfortable doesn't always lead to fulfilled. At Multifaceted Me, we believe there's a whole universe waiting to be explored within each of us. We're here to help you break free from limitations, set goals that excite you, and discover the amazing, multifaceted person you were always meant to be.</p>
     <a href="about.html" class="inline-block px-4 py-3 mb-2 leading-loose text-center text-white font-semibold bg-accentdark hover:bg-accentlight rounded-xl"> Read More </a>
     </div>
   </div>
 </section>
+
+<!-- Featured Blog posts -->
+<section class="p-5p">
+  <div class="max-w-screen-xl mx-auto md:columns-3">
+
+      {% assign featured_posts = site.posts | where: 'featured', true %}
+
+      {% for post in featured_posts limit:12 %}
+
+          <a class="p-2 break-inside-avoid block mb-4" href="{{ post.url }}">
+
+              <!-- Background image -->
+              <div class="bg-cover aspect-square" style="background-image:url( '{{ post.featured_image }}' );"></div>
+
+              <!-- Text container  -->
+              <div class="p-3 relative -top-40 left-3 bg-white">
+                  
+                  <p>
+                  {% for item in post.categories %}
+                      <span class="tag"> {{item}} </span>
+                  {% endfor %}
+                  </p>
+                  <h2 class="text-2xl"> {{ post.title }} </h2> 
+                  <p class="text-sm"> {{ post.description }} </p>
+                  <hr class="mt-1.5 mb-1.5 border-accentlight w-24 border-t-2"> 
+                  <p class="tag"> 
+                      <span class="font-bold mr-1">{{ post.author }}</span> {{ post.date | date_to_string }} 
+                  </p>
+
+              </div>
+          </a>
+
+      {% endfor %}
+
+  </div>
+
+</section> 
 

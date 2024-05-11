@@ -11,4 +11,8 @@
     }
     
     .pic {height: auto;}
+
+    .tag {
+        @apply text-xs inline-block p-1 uppercase text-stone-600;
+    }
 }

@@ -1,0 +1,239 @@
+paths:
+  uploads: uploads
+  dam_uploads: ''
+  static: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    output: false
+    description: Change your global inputs for SEO, Social Sharing and Data
+    icon: dataset
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+  posts:
+    path: _posts
+    output: true
+    description: Add a new or edit your existing Blog Posts
+    icon: book
+    sort:
+    _editables:
+      image:
+        correct_orientation: true
+        height: auto
+        image_size_attributes: true
+        resize_style: contain
+        width: auto
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: false
+        bold: true
+        italic: true
+        link: true
+        strike: true
+        underline: true
+      content:
+        allow_custom_markup: false
+        remove_custom_markup: false
+        blockquote: true
+        bulletedlist: true
+        center: center
+        embed: true
+        format: p h1 h2 h3 h4 h5 h6
+        horizontalrule: true
+        image: true
+        image_size_attributes: true
+        justify: block
+        left: left
+        numberedlist: true
+        redo: true
+        right: right
+        snippet: true
+        styles: /editor.css
+        table: true
+        undo: true
+    _inputs:
+    _select_data:
+    _structures:
+    create:
+      path: '{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]'
+      extra_data:
+      _inputs:
+      _select_data:
+      _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    description: The main pages of the site, mostly not to be touched
+    icon: notes
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+  archives:
+    path: _archives
+    output: true
+    description: >-
+      The archive pages of the site, will be done automatically, mostly not to
+      be touched
+    icon: notes
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+_inputs:
+  categories:
+    type: multiselect
+    options: business life selfcare travel
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  content:
+    type: text
+    options:
+      styles: /editor.css
+      blockquote: true
+      horizontalrule: true
+      format: p h1 h2 h3 h4 h5 h6
+      bold: true
+      italic: true
+      numberedlist: true
+      bulletedlist: true
+      code: true
+      table: true
+      right: right
+      center: center
+      left: left
+      embed: true
+      link: true
+      undo: true
+      redo: true
+      underline: true
+      strike: true
+      image: true
+      snippets: true
+    cascade: true
+_select_data:
+_snippets_definitions:
+  jekyll_liquid_format:
+    root_value_delimiter: '='
+    root_pair_delimiter:
+      - ''
+    array_boundary:
+      start: '['
+      end: ']'
+    array_delimiter: ','
+    string_boundary:
+      - '"'
+      - ''''
+    forbidden_tokens:
+      - '%}'
+      - '-%}'
+      - '}}'
+      - ','
+_snippets_templates:
+  jekyll_liquid_include:
+    snippet: '{% include [[name]] [[args]] %}'
+    params:
+      name:
+        parser: literal
+        options:
+          literal:
+            # This ref needs to be supplied by the _snippet when used
+            ref: include_name
+      args:
+        parser: key_values
+        options:
+          models:
+            # This ref needs to be supplied by the _snippet when used
+            ref: named_args
+          format:
+             # This ref is pulled from the `_snippets_definitions` above
+            ref: jekyll_liquid_format
+_snippets:
+  onethird:
+    template: jekyll_liquid_include
+    inline: false
+    preview:
+      text: Onethird
+    definitions:
+      include_name: onethird.html
+      named_args:
+        - editor_key: image
+          type: string
+        - editor_key: alt
+          type: string
+        # - editor_key: caption_html
+        #   type: string
+  onehalf:
+    template: jekyll_liquid_include
+    inline: false
+    preview:
+      text: Onehalf
+    definitions:
+      include_name: onehalf.html
+      named_args:
+        - editor_key: image
+          type: string
+        - editor_key: alt
+          type: string
+        # - editor_key: caption_html
+        #   type: string
+  floatleft:
+    template: jekyll_liquid_include
+    inline: false
+    preview:
+      text: floatleft
+    definitions:
+      include_name: imagefloatleft.html
+      named_args:
+        - editor_key: image
+          type: string
+        - editor_key: alt
+          type: string
+        # - editor_key: caption_html
+        #   type: string
+  floatright:
+    template: jekyll_liquid_include
+    inline: false
+    preview:
+      text: floatright
+    definitions:
+      include_name: imagefloatright.html
+      named_args:
+        - editor_key: image
+          type: string
+        - editor_key: alt
+          type: string
+        # - editor_key: caption_html
+        #   type: string
+
+data_config: {}
+timezone: America/Barbados
