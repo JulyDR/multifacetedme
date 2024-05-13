@@ -614,8 +614,8 @@ video {
   inset: 0px;
 }
 
-.-top-40 {
-  top: -10rem;
+.-top-24 {
+  top: -6rem;
 }
 
 .bottom-0 {
@@ -654,6 +654,31 @@ video {
   z-index: 50;
 }
 
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-2\.5 {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.mx-3\.5 {
+  margin-left: 0.875rem;
+  margin-right: 0.875rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -662,6 +687,10 @@ video {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.-mt-\[2rem\] {
+  margin-top: -2rem;
 }
 
 .mb-1 {
@@ -752,6 +781,10 @@ video {
   height: 1.5rem;
 }
 
+.min-h-30 {
+  min-height: 30vh;
+}
+
 .min-h-48 {
   min-height: 12rem;
 }
@@ -835,6 +868,10 @@ video {
   flex-direction: column;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .items-center {
   align-items: center;
 }
@@ -914,6 +951,11 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.bg-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 209 200 / var(--tw-bg-opacity));
+}
+
 .bg-medium {
   --tw-bg-opacity: 1;
   background-color: rgb(204 173 161 / var(--tw-bg-opacity));
@@ -941,6 +983,10 @@ video {
   fill: currentColor;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-10p {
   padding: 10%;
 }
@@ -959,6 +1005,10 @@ video {
 
 .p-5p {
   padding: 5%;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-8 {
@@ -1020,6 +1070,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-0 {
+  padding-bottom: 0px;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -1044,6 +1098,16 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-\[10vw\] {
@@ -1174,6 +1238,16 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .md\:mx-2\.5 {
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+  }
+
   .md\:-ml-\[20\%\] {
     margin-left: -20%;
   }
@@ -1184,6 +1258,10 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
   }
 
   .md\:py-15p {
@@ -1258,6 +1336,10 @@ video {
 
   .lg\:p-5p {
     padding: 5%;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-2xl {
