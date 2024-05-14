@@ -588,6 +588,10 @@ video {
   }
 }
 
+.banner-image {
+  background-image: url('/images/volcano1.jpeg');
+}
+
 .tag {
   display: inline-block;
   padding: 0.25rem;
@@ -659,6 +663,11 @@ video {
   margin-right: 0.25rem;
 }
 
+.mx-11 {
+  margin-left: 2.75rem;
+  margin-right: 2.75rem;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -667,16 +676,6 @@ video {
 .mx-2\.5 {
   margin-left: 0.625rem;
   margin-right: 0.625rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-3\.5 {
-  margin-left: 0.875rem;
-  margin-right: 0.875rem;
 }
 
 .mx-auto {
@@ -691,6 +690,10 @@ video {
 
 .-mt-\[2rem\] {
   margin-top: -2rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .mb-1 {
@@ -815,6 +818,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .max-w-screen-sm {
@@ -975,6 +982,10 @@ video {
   background-size: cover;
 }
 
+.bg-fixed {
+  background-attachment: fixed;
+}
+
 .bg-center {
   background-position: center;
 }
@@ -1110,6 +1121,11 @@ video {
   line-height: 1;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-\[10vw\] {
   font-size: 10vw;
 }
@@ -1157,6 +1173,10 @@ video {
 
 .leading-loose {
   line-height: 2;
+}
+
+.leading-none {
+  line-height: 1;
 }
 
 .tracking-wide {
