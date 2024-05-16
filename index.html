@@ -44,7 +44,7 @@ about-image: /images/guatemala1.jpeg
       {% for post in featured_posts limit:3 %}
 
 
-        <a class="p-2 break-inside-avoid block mb-4 hover:scale-105" href="{{ post.url }}">
+        <a class="p-2 break-inside-avoid block hover:scale-105" href="{{ post.url }}">
 
           <!-- Background image -->
           <div class="bg-cover aspect-square min-h-64 md:min-h-72 lg:min-h-[22rem] lg:max-h-[22rem]" style="background-image:url( '{{ post.featured_image }}' );"></div>
@@ -69,7 +69,7 @@ about-image: /images/guatemala1.jpeg
 
       {% endfor %}
     </div>
-
+    <a href="blog.html" class="inline-block px-4 py-3 mb-6 mx-[40%] leading-loose text-center text-white font-semibold bg-accentdark hover:bg-accentlight rounded-xl"> Show All Posts </a>
   </div>
 
 </section> 
