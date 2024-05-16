@@ -23,6 +23,8 @@ module.exports = {
         'portrait-tall': '3 / 5',
       },
       minHeight:{
+        '120': '120vh',
+        '110': '110vh',
         '100': '100vh',
         '90': '90vh',
         '80': '80vh',

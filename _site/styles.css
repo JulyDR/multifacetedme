@@ -626,6 +626,10 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[4vw\] {
+  bottom: 4vw;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -638,8 +642,16 @@ video {
   left: 0.75rem;
 }
 
+.left-\[8vw\] {
+  left: 8vw;
+}
+
 .right-8 {
   right: 2rem;
+}
+
+.right-\[8vw\] {
+  right: 8vw;
 }
 
 .top-0 {
@@ -652,6 +664,10 @@ video {
 
 .top-8 {
   top: 2rem;
+}
+
+.top-\[4vw\] {
+  top: 4vw;
 }
 
 .z-50 {
@@ -692,10 +708,6 @@ video {
   margin-top: -2rem;
 }
 
-.-mt-\[3rem\] {
-  margin-top: -3rem;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -708,6 +720,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -718,6 +734,10 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mb-\[1rem\] {
+  margin-bottom: 1rem;
 }
 
 .mr-1 {
@@ -788,6 +808,10 @@ video {
   height: 1.5rem;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .min-h-30 {
   min-height: 30vh;
 }
@@ -802,6 +826,10 @@ video {
 
 .min-h-64 {
   min-height: 16rem;
+}
+
+.min-h-\[970px\] {
+  min-height: 970px;
 }
 
 .w-24 {
@@ -968,6 +996,10 @@ video {
   background-color: rgb(204 173 161 / var(--tw-bg-opacity));
 }
 
+.bg-slate-100\/80 {
+  background-color: rgb(241 245 249 / 0.8);
+}
+
 .bg-stone-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
@@ -1026,6 +1058,11 @@ video {
   padding: 2rem;
 }
 
+.px-10p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1034,6 +1071,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-5p {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .px-6 {
@@ -1083,6 +1125,14 @@ video {
 
 .pb-0 {
   padding-bottom: 0px;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-5p {
+  padding-top: 5%;
 }
 
 .pt-6 {
@@ -1248,7 +1298,57 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:-mt-60 {
+    margin-top: -15rem;
+  }
+
+  .sm\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .sm\:ml-56 {
+    margin-left: 14rem;
+  }
+
+  .sm\:aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+
+  .sm\:h-64 {
+    height: 16rem;
+  }
+
+  .sm\:min-h-\[700px\] {
+    min-height: 700px;
+  }
+
+  .sm\:p-10p {
+    padding: 10%;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:bottom-\[8vw\] {
+    bottom: 8vw;
+  }
+
+  .md\:left-\[10vw\] {
+    left: 10vw;
+  }
+
+  .md\:right-\[10vw\] {
+    right: 10vw;
+  }
+
+  .md\:top-\[8vw\] {
+    top: 8vw;
+  }
+
+  .md\:float-left {
+    float: left;
+  }
+
   .md\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -1259,12 +1359,53 @@ video {
     margin-right: 0.625rem;
   }
 
+  .md\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .md\:-mb-16 {
+    margin-bottom: -4rem;
+  }
+
   .md\:-ml-\[20\%\] {
     margin-left: -20%;
   }
 
+  .md\:-mt-\[17rem\] {
+    margin-top: -17rem;
+  }
+
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .md\:ml-44 {
+    margin-left: 11rem;
+  }
+
+  .md\:ml-72 {
+    margin-left: 18rem;
+  }
+
+  .md\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
+  }
+
   .md\:min-h-72 {
     min-height: 18rem;
+  }
+
+  .md\:min-h-\[800px\] {
+    min-height: 800px;
   }
 
   .md\:grid-cols-2 {
@@ -1275,6 +1416,11 @@ video {
     padding: 2rem;
   }
 
+  .md\:px-10p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .md\:py-15p {
     padding-top: 15%;
     padding-bottom: 15%;
@@ -1282,13 +1428,30 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
   }
 
+  .lg\:-mb-28 {
+    margin-bottom: -7rem;
+  }
+
   .lg\:-ml-\[20\%\] {
     margin-left: -20%;
+  }
+
+  .lg\:-mt-5 {
+    margin-top: -1.25rem;
+  }
+
+  .lg\:-mt-56 {
+    margin-top: -14rem;
   }
 
   .lg\:ml-\[20\%\] {
@@ -1370,7 +1533,43 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .xl\:-mb-32 {
+    margin-bottom: -8rem;
+  }
+
+  .xl\:-mt-9 {
+    margin-top: -2.25rem;
+  }
+
+  .xl\:-mt-\[17rem\] {
+    margin-top: -17rem;
+  }
+
+  .xl\:ml-\[21rem\] {
+    margin-left: 21rem;
+  }
+
+  .xl\:h-96 {
+    height: 24rem;
+  }
+
+  .xl\:min-h-\[600px\] {
+    min-height: 600px;
+  }
+
   .xl\:overflow-hidden {
     overflow: hidden;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:mx-56 {
+    margin-left: 14rem;
+    margin-right: 14rem;
   }
 }
