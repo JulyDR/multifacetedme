@@ -702,11 +702,6 @@ video {
   margin-right: 0.625rem;
 }
 
-.mx-\[40\%\] {
-  margin-left: 40%;
-  margin-right: 40%;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1518,6 +1513,10 @@ video {
   .md\:py-15p {
     padding-top: 15%;
     padding-bottom: 15%;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 }
 

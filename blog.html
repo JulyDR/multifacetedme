@@ -19,10 +19,7 @@ seo:
 
     <div class="max-w-screen-xl mx-auto md:columns-3">
 
-
-        {% assign featured_posts = site.posts | where: 'featured', true %}
-
-        {% for post in featured_posts limit:12 %}
+        {% for post in site.posts %}
 
             <a class="post-item p-2 break-inside-avoid block mb-4" href="{{ post.url }}">
 

@@ -12,7 +12,7 @@ category: Business
     <div class="max-w-screen-xl mx-auto md:columns-3">
 
 
-        {% assign business_posts = site.posts | where: 'categories', business %}
+        {% assign featured_posts = site.posts | where: 'featured', x %}
 
         {% for post in business_posts limit:12 %}
 

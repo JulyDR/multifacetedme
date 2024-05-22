@@ -6,7 +6,7 @@ description: >-
   sabbatical. 365 sunrises to explore, to grow, to simply be.
 author: July
 date: 22.01.2024 
-featured: true
+featured: x
 categories:
   - travel
   - life
