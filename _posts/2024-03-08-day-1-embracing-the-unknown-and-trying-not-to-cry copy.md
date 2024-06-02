@@ -6,18 +6,18 @@ description: >-
   sabbatical. 365 sunrises to explore, to grow, to simply be.
 author: July
 date: 22.01.2024 
-featured: x
+featured: true
 categories:
   - travel
   - life
-featured_image: /images/IMG_0772.jpg
+featured_image: /images/street.jpg
 seo:
   title: 'Day 1: Embracing the Unknown (and Trying not to Cry)'
   description: >-
     Today, the calendar flipped to a new chapter: the first day of my year-long
     sabbatical. 365 sunrises to explore, to grow, to simply be. Learn how I am
     dealing with the fear of uncertainty. 
-  social_image: /images/IMG_0772.jpg
+  social_image: /images/street.jpg
   twitter_card:
   keywords: >-
     Goodbye, Farewell, Packing, Fear of the unknown, Uncertainty,  dealing with

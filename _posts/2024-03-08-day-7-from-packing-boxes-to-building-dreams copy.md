@@ -7,18 +7,18 @@ description: >-
   at hand. 
 author: July
 date: 22.01.2024 
-featured: true
+featured: false
 categories:
   - travel
   - business
-featured_image: /images/antigua1.jpeg
+featured_image: /images/typo.jpg
 seo:
   title: 'Day 7: A Sabbatical Prep Rollercoaster'
   description: >-
     Insurance hurdles, furniture farewells and last-minute packing chaos paired
     with focusing on new skills in the web development world and creating the
     blog at hand. 
-  social_image: /images/antigua1.jpeg
+  social_image: /images/typo.jpg
   twitter_card:
   keywords: Packing, Logistics, Organizing, WebDevelopment, New Skills
   hide-from-google: false

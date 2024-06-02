@@ -10,13 +10,13 @@ featured: true
 categories:
   - travel
   - life
-featured_image: /images/IMG_1467.jpg
+featured_image: /images/ocean.jpg
 seo:
   title: 'Day 14:  Swapping City Sirens for Ocean Breezes'
   description: >-
     Leaving the city for Cabarete. A bumpy bus ride full of delays and a
     friendly arrival with  familiar faces.
-  social_image: /images/IMG_1467.jpg
+  social_image: /images/ocean.jpg
   twitter_card:
   keywords: Bus Ride, Caribe Tours, Cabarete, Friends
   hide-from-google: false

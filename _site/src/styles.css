@@ -7,7 +7,7 @@
 @layer components {
 
     .banner-image {
-        background-image: url('/images/volcano1.jpeg');
+        background-image: url('/images/startbanner.jpg');
     }
     
     .pic {height: auto;}

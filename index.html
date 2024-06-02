@@ -8,7 +8,7 @@ seo:
   twitter_card:
   keywords:
   hide-from-google: false
-about-image: /images/guatemala1.jpeg
+about-image: /images/beyou.jpg
 ---
 
 <!-- Headline -->
@@ -21,9 +21,9 @@ about-image: /images/guatemala1.jpeg
 
 <!-- Short About Introduction -->
 <section class="bg-stone-200 p-5p">
-  <div class="grid md:grid-cols-2 max-w-screen-xl mx-auto">
+  <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2">
     <div class="bg-cover bg-center h-52 md:pic" style="background-image: url('{{page.about-image}}')"> </div>
-    <div class="py-5p md:py-15p px-8">
+    <div class="py-5p px-8 -mt-24 md:mt-0 md:py-15p">
       <h2 class="p-8 tracking-wide font-serif md:-ml-[20%] bg-accentdark text-3xl max-w-sm text-white"> Grow. Connect. <br> Be Multifaceted. </h2>
       <p class="my-4">Do you ever feel that nagging sense of "is this all there is?" Maybe your career feels like autopilot, or a voice whispers you're not reaching your full potential. You crave a life bursting with possiblity, one where you can conquer challenges and explore hidden talents. But fear and self-doubt are holding you back.</p>
       <p class="my-4">We get it. Life can get comfortable, but comfortable doesn't always lead to fulfilled. At Multifaceted Me, we believe there's a whole universe waiting to be explored within each of us. We're here to help you break free from limitations, set goals that excite you, and discover the amazing, multifaceted person you were always meant to be.</p>
@@ -49,7 +49,7 @@ about-image: /images/guatemala1.jpeg
         <a class="p-2 break-inside-avoid block hover:scale-105" href="{{ post.url }}">
 
           <!-- Background image -->
-          <div class="bg-cover aspect-square min-h-64 md:min-h-72 lg:min-h-[22rem] lg:max-h-[22rem]" style="background-image:url( '{{ post.featured_image }}' );"></div>
+          <div class="bg-cover aspect-square min-h-64 md:min-h-72 lg:min-h-[22rem] lg:max-h-[22rem]" style="background-image:url('{{ post.featured_image }}');"></div>
 
           <!-- Text container  -->
           <div class="p-3 relative -top-24 left-3 bg-white min-h-48">
@@ -67,11 +67,12 @@ about-image: /images/guatemala1.jpeg
               </p>
 
           </div>
-      </a>
+        </a>
 
       {% endfor %}
     </div>
-    <div class="text-center">
+
+    <div class="text-center -mt-16">
       <a href="blog.html" class="inline-block px-4 py-3 mb-6 leading-loose text-center text-white font-semibold bg-accentdark hover:bg-accentlight rounded-xl"> Show All Posts </a>
     </div>
     

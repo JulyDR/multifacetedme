@@ -11,14 +11,14 @@ featured: true
 categories:
   - travel
   - business
-featured_image: /images/antigua1.jpeg
+featured_image: /images/typo.jpg
 seo:
   title: 'Day 7: A Sabbatical Prep Rollercoaster'
   description: >-
     Insurance hurdles, furniture farewells and last-minute packing chaos paired
     with focusing on new skills in the web development world and creating the
     blog at hand. 
-  social_image: /images/antigua1.jpeg
+  social_image: /images/typo.jpg
   twitter_card:
   keywords: Packing, Logistics, Organizing, WebDevelopment, New Skills
   hide-from-google: false

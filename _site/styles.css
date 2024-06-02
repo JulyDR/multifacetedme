@@ -589,7 +589,7 @@ video {
 }
 
 .banner-image {
-  background-image: url('/images/volcano1.jpeg');
+  background-image: url('/images/startbanner.jpg');
 }
 
 .tag {
@@ -712,6 +712,14 @@ video {
   margin-bottom: 1rem;
 }
 
+.-mt-16 {
+  margin-top: -4rem;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
+}
+
 .-mt-\[2rem\] {
   margin-top: -2rem;
 }
@@ -796,10 +804,6 @@ video {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .hidden {
   display: none;
 }
@@ -852,8 +856,8 @@ video {
   min-height: 16rem;
 }
 
-.min-h-\[970px\] {
-  min-height: 970px;
+.min-h-\[930px\] {
+  min-height: 930px;
 }
 
 .w-10 {
@@ -1051,8 +1055,8 @@ video {
   background-color: rgb(204 173 161 / var(--tw-bg-opacity));
 }
 
-.bg-slate-100\/80 {
-  background-color: rgb(241 245 249 / 0.8);
+.bg-slate-100\/85 {
+  background-color: rgb(241 245 249 / 0.85);
 }
 
 .bg-stone-200 {
@@ -1131,11 +1135,6 @@ video {
 .px-5p {
   padding-left: 5%;
   padding-right: 5%;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .px-8 {
@@ -1230,6 +1229,10 @@ video {
   font-size: 10vw;
 }
 
+.text-\[15vw\] {
+  font-size: 15vw;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1313,7 +1316,7 @@ video {
 
 @media (min-width: 1024px) {
   .lg\:banner-image {
-    background-image: url('/images/volcano1.jpeg');
+    background-image: url('/images/startbanner.jpg');
   }
 }
 
@@ -1371,6 +1374,10 @@ video {
     margin-left: 14rem;
   }
 
+  .sm\:ml-60 {
+    margin-left: 15rem;
+  }
+
   .sm\:aspect-square {
     aspect-ratio: 1 / 1;
   }
@@ -1385,6 +1392,10 @@ video {
 
   .sm\:p-10p {
     padding: 10%;
+  }
+
+  .sm\:text-\[10vw\] {
+    font-size: 10vw;
   }
 }
 
@@ -1444,16 +1455,16 @@ video {
     margin-bottom: 4rem;
   }
 
-  .md\:ml-44 {
-    margin-left: 11rem;
-  }
-
   .md\:ml-72 {
     margin-left: 18rem;
   }
 
   .md\:mr-2 {
     margin-right: 0.5rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:mt-6 {
