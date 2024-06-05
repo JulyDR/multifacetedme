@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 14 - Swapping City Sirens for Ocean Breezes
+title: Swapping City Sirens for Ocean Breezes
 description: >-
   Leaving the city for Cabarete. A bumpy bus ride full of delays and a friendly
   arrival with  familiar faces.

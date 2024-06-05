@@ -1,19 +1,23 @@
 <!-- Banner -->
 <section class="p-10p min-h-30 text-center content-center lg:text-left">
     <div> 
-       <h2 class="text-[10vw] mb-4 leading-[0.7] font-serif"> The Story Unfolds </h2> 
+       <h2 class="text-[10vw] mb-8 leading-[0.7] font-serif"> The Story Unfolds </h2> 
        <h3 class="text-base uppercase font-serif lg:text-2xl"> My journey so far. Twists and Turns included. </h3> 
     </div> 
-  </section> 
+</section> 
   
-  <div class="flex items-center md:justify-center border-y-2 border-slate-600 md:overflow-x-auto overflow-x-scroll md:flex-wrap flex-nowrap">
-  
-      <a href="/blog.html" class="p-4 uppercase whitespace-nowrap hover:text-rose-600">all</a>
+<div class="text-center border-y-2 border-gray-800 sm:hidden">
+    <a href="/blog.html" class="p-1.5 text-gray-800 uppercase hover:text-accentlight">all</a><br>
      
-      {% for cat in site.archives %}
-  
-      <a href="{{cat.url}}" class="p-4 uppercase whitespace-nowrap hover:text-rose-600"> {{cat.category}} </a>
-  
-      {% endfor %}
-  
-  </div> 
+    {% for cat in site.archives %}
+    <a href="{{cat.url}}" class="p-1.5 text-gray-800 uppercase hover:text-accentlight"> {{cat.category}} </a>
+    {% endfor %}
+</div> 
+
+<div class="text-center border-y-2 border-gray-800 hidden sm:block">
+    <a href="/blog.html" class="p-4 text-gray-800 uppercase hover:text-accentlight">all</a>
+   
+    {% for cat in site.archives %}
+    <a href="{{cat.url}}" class="p-4 text-gray-800 uppercase hover:text-accentlight"> {{cat.category}} </a>
+    {% endfor %}
+</div> 

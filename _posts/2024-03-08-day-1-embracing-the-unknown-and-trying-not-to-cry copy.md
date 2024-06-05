@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 1 - Embracing the Unknown
+title: Embracing the Unknown
 description: >-
   Today, the calendar flipped to a new chapter: the first day of my year-long
   sabbatical. 365 sunrises to explore, to grow, to simply be.

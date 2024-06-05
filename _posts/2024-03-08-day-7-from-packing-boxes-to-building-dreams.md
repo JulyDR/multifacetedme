@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Day 7 - A Sabbatical Prep Rollercoaster
+title: A Sabbatical Prep Rollercoaster
 description: >-
   Insurance hurdles, furniture farewells and last-minute packing chaos paired
   with focusing on new skills in the web development world and creating the blog
