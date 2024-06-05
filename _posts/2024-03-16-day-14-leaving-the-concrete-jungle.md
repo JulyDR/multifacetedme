@@ -7,8 +7,8 @@ description: >-
 author: July
 date: 22.01.2024 
 featured: false
+life: 1
 categories:
-  - travel
   - life
 featured_image: /images/ocean.jpg
 seo:

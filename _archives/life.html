@@ -6,3 +6,39 @@ category: Life
 ---
 
 {% include blogheader.html %}
+
+<!------------------------ Featured blog loop ------------------------>
+<section class="p-5p">
+
+    <div class="max-w-screen-xl mx-auto sm:columns-2 md:columns-3">
+
+        {% assign life_posts = site.posts | where: 'life', 1 %}
+
+        {% for post in life_posts %}
+
+            <a class="p-2 break-inside-avoid block mb-4 hover:shadow-2xl sm:columns-auto" href="{{ post.url }}">
+                <!-- Background image -->
+                <div class="hidden sm:block bg-cover aspect-square 
+                md:{% cycle 'aspect-square', 'aspect-portrait', 'aspect-landscape' %}" 
+                style="background-image:url( '{{ post.featured_image }}' );"></div>
+                <!-- Text container  -->
+                <div class="p-4 relative bg-white">
+                    <p>
+                    {% for item in post.categories %}
+                        <span class="tag"> {{item}} </span>
+                    {% endfor %}
+                    </p>
+                    <h2 class="mt-1 font-serif text-xl"> {{ post.title | truncate: 27 }} </h2>
+                    <p class="text-sm"> {{ post.description | truncate: 95 }} </p>
+                    <hr class="border-accentlight w-10 border-t-2 mt-4 mb-3"> 
+                    <p class="tag"> 
+                        <span class="font-bold mr-1">{{ post.author }}</span> {{ post.date | date_to_string }} 
+                    </p>
+                </div>
+            </a>
+
+        {% endfor %}
+  
+    </div>
+ 
+</section> 

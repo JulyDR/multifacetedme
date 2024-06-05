@@ -7,9 +7,9 @@ description: >-
 author: July
 date: 22.01.2024 
 featured: true
+selfcare: 1
 categories:
-  - travel
-  - life
+  - selfcare
 featured_image: /images/ocean.jpg
 seo:
   title: 'Day 14:  Swapping City Sirens for Ocean Breezes'

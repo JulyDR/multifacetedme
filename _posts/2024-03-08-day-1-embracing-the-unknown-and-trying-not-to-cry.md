@@ -7,6 +7,8 @@ description: >-
 author: July
 date: 22.01.2024 
 featured: x
+travel: 1
+life: 1
 categories:
   - travel
   - life

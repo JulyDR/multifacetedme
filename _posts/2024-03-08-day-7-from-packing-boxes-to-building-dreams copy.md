@@ -8,6 +8,8 @@ description: >-
 author: July
 date: 22.01.2024 
 featured: false
+travel: 1
+business: 1
 categories:
   - travel
   - business
