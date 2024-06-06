@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-sidebar
 title: Swapping City Sirens for Ocean Breezes
 description: >-
   Leaving the city for Cabarete. A bumpy bus ride full of delays and a friendly

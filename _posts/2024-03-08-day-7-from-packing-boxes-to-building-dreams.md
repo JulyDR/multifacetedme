@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-sidebar
 title: A Sabbatical Prep Rollercoaster
 description: >-
   Insurance hurdles, furniture farewells and last-minute packing chaos paired

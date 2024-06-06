@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-sidebar
 title: Embracing the Unknown
 description: >-
   Today, the calendar flipped to a new chapter: the first day of my year-long
