@@ -24,9 +24,8 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
-## **Swapping City Sirens for Ocean Breezes**
 
-##### **A Bumpy Ride, But a Smiling Arrival**
+#### **A Bumpy Ride, But a Smiling Arrival**
 
 The cityscape, once a constant symphony of honking horns and flashing neon, has been replaced by the rhythmic crash of waves and the rustling of palm leaves outside my window. Leaving the city wasn't just a change of scenery; it was a deliberate exhale, a release from the relentless pace of urban life.
 
@@ -53,5 +52,3 @@ The first day in Cabarete was dedicated to the restorative power of sleep. I was
 * **Gratitude is Key:** Even in a new and slightly unfamiliar situation, appreciating the support of friends and the beauty of your new surroundings can bring peace and happiness.
 
 I am excited to spend the next days together with my friend Rebekka in the center of Cabarete, before I will then move to Encuentro Beach, which is a small community around 10 minutes outside of town. Let's see what the next days will bring!
-
-&nbsp;

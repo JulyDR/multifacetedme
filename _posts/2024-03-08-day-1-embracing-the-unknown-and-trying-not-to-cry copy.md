@@ -29,9 +29,7 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
-## Embracing the Unknown (and Trying not to Cry)
-
-##### A Sabbatical Survival Guide
+#### A Sabbatical Survival Guide
 
 Today, the calendar flipped to a new chapter: the first day of my year-long sabbatical. 365 sunrises to explore, to grow, to simply **be**. One year. 365 days without the familiar routine, the fluorescent lights, and the comforting (or sometimes, mind-numbing) rhythm of corporate life. The emotions are a swirling of excitement, sadness, fear, and everything in between.
 

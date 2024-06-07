@@ -3,11 +3,9 @@ layout: default
 ---
 
 
-<section class="md:flex p-8 max-w-screen-xl mx-auto">
+<section class="md:flex p-4 max-w-screen-xl mx-auto sm:p-8">
 
-    <div class="p-4">
-        <div class="p-4">
-
+    <div class="p-4 sm:p-8">
             {% for item in page.categories %}
                 <span class="tag"> {{ item }}</span>
             {% endfor %}
@@ -15,8 +13,7 @@ layout: default
             <h1 class="text-3xl mt-2 font-serif"> {{ page.title }} </h1>
             
             <p class="tag"> by {{ page.author }} | {{ page.date | date_to_string }} </p>
-         
-        </div>
+
         <div class="p-4 prose prose-stone max-w-none">
 
             {{content}}

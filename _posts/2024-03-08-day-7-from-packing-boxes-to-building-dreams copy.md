@@ -28,7 +28,6 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
-## **A Sabbatical Prep Rollercoaster**
 
 It's been a roller coaster of a week. The initial euphoria of quitting my job has settled, replaced by a frantic scramble of logistics and technical challenges. While the daydreams of pristine beaches and epic adventures remain vivid, the reality of preparing for a year off has been… well, let's just say it's not all Instagram-worthy sunsets.
 
