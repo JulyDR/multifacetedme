@@ -18,8 +18,7 @@ category: Business
 
             <a class="p-2 break-inside-avoid block mb-4 hover:shadow-2xl sm:columns-auto" href="{{ post.url }}">
                 <!-- Background image -->
-                <div class="hidden sm:block bg-cover aspect-square 
-                md:{% cycle 'aspect-square', 'aspect-portrait', 'aspect-landscape' %}" 
+                <div class="hidden sm:block bg-cover aspect-square" 
                 style="background-image:url( '{{ post.featured_image }}' );"></div>
                 <!-- Text container  -->
                 <div class="p-4 relative bg-white">
@@ -30,9 +29,9 @@ category: Business
                     </p>
                     <h2 class="mt-1 font-serif text-xl"> {{ post.title | truncate: 27 }} </h2>
                     <p class="text-sm"> {{ post.description | truncate: 95 }} </p>
-                    <hr class="border-accentlight w-10 border-t-2 mt-4 mb-3"> 
+                    <hr class="mt-1.5 mb-1.5 border-accentlight w-36 border-t-4"> 
                     <p class="tag"> 
-                        <span class="font-bold mr-1">{{ post.author }}</span> {{ post.date | date_to_string }} 
+                        <span class="font-bold mr-1">{{ post.date | date_to_string }} 
                     </p>
                 </div>
             </a>

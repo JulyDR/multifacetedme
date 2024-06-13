@@ -12,7 +12,7 @@ layout: default
             
             <h1 class="text-3xl mt-2 font-serif"> {{ page.title }} </h1>
             
-            <p class="tag"> by {{ page.author }} | {{ page.date | date_to_string }} </p>
+            <p class="tag">{{ page.date | date_to_string }} </p>
 
         <div class="p-4 prose prose-stone max-w-none">
 
@@ -27,34 +27,35 @@ layout: default
     <!------------------ SIDEBAR  --------------------------------->
     <aside class="p-4 md:w-96 shrink-0">
 
-        <div class="bg-stone-200 p-4 m-4">
+        <div class="bg-white p-4 m-4">
+            <h4> <strong> Explore Categories </strong></h4>
 
-            <h4> About me </h4>
+            <nav> 
+                {% for archive in site.archives limit:8 %}
+                     <a href="{{archive.url}}" class="tag hover:text-accentlight"> {{archive.category}}</a>
+                {% endfor %}
+            </nav>
+
+        </div>
+
+        <div class="bg-white p-4 m-4">
+            <h4> <strong> Recent Posts </strong></h4>
+
+            <nav class="recent-posts-nav"> 
+                {% for post in site.posts limit:5 %}
+                     <a href="{{post.url}}" class="block mb-1 hover:text-accentlight"> {{post.title}}</a>
+                {% endfor %}
+            </nav>
+
+        </div>
+
+        <div class="bg-white p-4 m-4">
+
+            <h4><strong>About me </strong> </h4>
             <p>Hi! Julia here, a mid-thirties adventurer on a year-long sabbatical. After six sun-soaked years in the Dominican Republic, I'm trading routine for self-discovery. This year is packed with exploration (both places and passions!), learning new skills (web design anyone?), and prioritizing my well-being (yoga, meditation, and maybe kitesurfing!). Join me on this journey to find what's next!.</p> 
 
         </div>
 
-        <div class="bg-stone-200 p-4 m-4">
-            <h4> Recent Posts </h4>
-
-            <nav class="recent-posts-nav"> 
-                {% for post in site.posts limit:5 %}
-                     <a href="{{post.url}}" class="block"> {{post.title}}</a>
-                {% endfor %}
-            </nav>
-
-        </div>
-
-        <div class="bg-stone-200 p-4 m-4">
-            <h4> Explore Categories </h4>
-
-            <nav> 
-                {% for archive in site.archives limit:8 %}
-                     <a href="{{archive.url}}" class="tag"> {{archive.category}}</a>
-                {% endfor %}
-            </nav>
-
-        </div>
 
     </aside> <!-- end sidebar-->
 
