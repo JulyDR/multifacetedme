@@ -5,7 +5,7 @@ description: >-
   Leaving the city for Cabarete. A bumpy bus ride full of delays and a friendly
   arrival with  familiar faces.
 author: July
-date: 22.01.2024 
+date: 22.01.2024
 featured: false
 life: 1
 categories:
@@ -24,10 +24,11 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
-
 #### **A Bumpy Ride, But a Smiling Arrival**
 
 The cityscape, once a constant symphony of honking horns and flashing neon, has been replaced by the rhythmic crash of waves and the rustling of palm leaves outside my window. Leaving the city wasn't just a change of scenery; it was a deliberate exhale, a release from the relentless pace of urban life.
+
+{% include imagefloatleft.html image="/images/antigua1.jpeg" alt="" %}
 
 ###### Unexpected Delays, Unexpected Connections
 
@@ -42,8 +43,6 @@ These conversations reminded me of the beauty of human connection, the way stran
 Since my apartment was still occupied by Airbnb Guests till 4 days later, i decided to stay at my friends, Rebekka's, place who was waiting for my arrival patiently. A sense of calm washed over me, when I finally arrived at her place after a hectic day of moving out and cleaning my apartment in Santo Domingo. And I couldn't have been happier to spend the first days in my new home with a familiar face around me.
 
 The first day in Cabarete was dedicated to the restorative power of sleep. I was basically switching position between the sofa and the bed, embracing the slow pace. It was a stark contrast to the relentless energy of city life, a deliberate shift towards a more mindful approach to time, giving me the time to reflect about the previous day and my year ahead.
-
-
 
 ##### <u>Lessons I have learnt on the day of Moving:</u>
 
