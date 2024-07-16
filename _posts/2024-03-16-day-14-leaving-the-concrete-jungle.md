@@ -38,7 +38,7 @@ My journey to Cabarete started as planned, but the universe, it seemed, had a un
 
 {% include onethird.html image="/images/ocean.jpg" alt="" %}
 
-{% include onethird.html image="/images/startbanner.jpg" alt="" %}
+{% include onethird.html image="/images/imagine.jpg" alt="" %}
 
 The additional hours on the bus, however, turned into an unexpected blessing. I met some interesting people on the ride. Especially Kenny, a Dominican guy that lives in Germany since 1998 shared his experiences about my home country with me and also gave me new tips and background stories about live in Cabarete (where he grew up). By the time the bus finally rumbled into the Cabarete station, exhaustion had taken hold. Kenny's final destination was luckily just around the corner of my friends place, so he gave me a ride home and helped me with my luggage (big thanks to Kenny!!!).
 
