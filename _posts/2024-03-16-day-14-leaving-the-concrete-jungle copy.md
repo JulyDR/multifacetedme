@@ -7,7 +7,7 @@ description: >-
 author: July
 date: 22.01.2024
 featured: true
-selfcare: 1
+topic: 3
 categories:
   - selfcare
 featured_image: /images/ocean.jpg

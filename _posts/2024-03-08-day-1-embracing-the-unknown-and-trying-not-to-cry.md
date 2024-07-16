@@ -7,11 +7,12 @@ description: >-
 author: July
 date: 22.01.2024 
 featured: x
-travel: 1
-life: 1
+topic: 
+  - 1
+  - 4
 categories:
   - travel
-  - life
+  - business
 featured_image: /images/street.jpg
 seo:
   title: 'Day 1: Embracing the Unknown (and Trying not to Cry)'

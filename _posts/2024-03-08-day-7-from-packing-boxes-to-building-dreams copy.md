@@ -8,11 +8,12 @@ description: >-
 author: July
 date: 22.01.2024 
 featured: false
-travel: 1
-business: 1
+topic: 
+  - 1
+  - 4
 categories:
-  - travel
   - business
+  - selfcare
 featured_image: /images/typo.jpg
 seo:
   title: 'Day 7: A Sabbatical Prep Rollercoaster'

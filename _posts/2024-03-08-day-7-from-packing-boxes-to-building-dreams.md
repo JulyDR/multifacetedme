@@ -8,7 +8,7 @@ description: >-
 author: July
 date: 22.01.2024 
 featured: true
-business: 1
+topic: 1
 categories:
   - business
 featured_image: /images/typo.jpg

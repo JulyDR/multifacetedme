@@ -7,10 +7,11 @@ description: >-
 author: July
 date: 22.01.2024 
 featured: true
-travel: 1
-life: 1
+topic: 
+  - 1
+  - 2
 categories:
-  - travel
+  - business
   - life
 featured_image: /images/street.jpg
 seo:

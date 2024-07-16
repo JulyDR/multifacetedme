@@ -7,7 +7,7 @@ description: >-
 author: July
 date: 22.01.2024
 featured: false
-life: 1
+topic: 2
 categories:
   - life
 featured_image: /images/ocean.jpg
