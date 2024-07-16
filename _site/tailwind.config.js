@@ -35,8 +35,8 @@ module.exports = {
         '30': '30vh',
       },
       colors: {
-        light: '#F2D1C8',
-        medium: '#CCADA1',
+        light: '#E5DDD5',
+        medium: '#D2C4B6',
         dark: '#B57C71',
         accentlight: '#557879',
         accentdark: '#364448',
