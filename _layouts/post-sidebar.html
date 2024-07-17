@@ -43,7 +43,7 @@ layout: default
 
             <nav class="recent-posts-nav"> 
                 {% for post in site.posts limit:5 %}
-                     <a href="{{post.url}}" class="block mb-1 hover:text-accentlight"> {{post.title}}</a>
+                     <a href="{{post.url}}" class="tag block mb-1 hover:text-accentlight"> {{post.title}}</a>
                 {% endfor %}
             </nav>
 
@@ -52,7 +52,7 @@ layout: default
         <div class="bg-white p-4 m-4">
 
             <h4><strong>About me </strong> </h4>
-            <p>Hi! Julia here, a mid-thirties adventurer on a year-long sabbatical. After six sun-soaked years in the Dominican Republic, I'm trading routine for self-discovery. This year is packed with exploration (both places and passions!), learning new skills (web design anyone?), and prioritizing my well-being (yoga, meditation, and maybe kitesurfing!). Join me on this journey to find what's next!.</p> 
+            <p class="text-sm inline-block p-1 text-stone-600/90">Hi! Julia here, a mid-thirties adventurer on a year-long sabbatical. After six sun-soaked years in the Dominican Republic, I'm trading routine for self-discovery. This year is packed with exploration (both places and passions!), learning new skills (web design anyone?), and prioritizing my well-being (yoga, meditation, and maybe kitesurfing!). Join me on this journey to find what's next!.</p> 
 
         </div>
 
