@@ -30,6 +30,8 @@ The cityscape, once a constant symphony of honking horns and flashing neon, has 
 
 {% include imagefloatleft.html image="/images/antigua1.jpeg" alt="" %}
 
+
+
 ###### Unexpected Delays, Unexpected Connections
 
 My journey to Cabarete started as planned, but the universe, it seemed, had a unique itinerary in store. What was supposed to be a smooth four-hour bus ride, turned out to be a five and half our odyssey. Taking the guagua (dominican word for bus) from Santo Domingo at 4:30pm was probably not the smartest move to start with, as we obviously hit rush hour when leaving the city. However, I was happy to have made it to the bus with all my suitcases and felt comfortable to just watch Netflix for the next hours. But I had forgotten how communicative Dominicans are. We haven't been on the bus for five minutes yet, and conversations from all sides already started. At this point, the biggest concern was that the USB chargers weren't working. At our first stop, La Vega, however, the concern changed, as the axles of the bus were apparently broken, making the experience a bumpy ride. After 30minutes of discussions, it was decided that we keep going up to the toll station of Santiago where the bus was supposed to be exchanges. Our driver was trying his best to get the replacement bus to us as fast as possible, but seems like the company was not in a hurry. Fast forward, 40minutes later, waiting with all my luggage at the highway, another bus that probably started an hour later in Santo Domingo, picked us up and brought us all the way to the north coast.
@@ -47,6 +49,9 @@ These conversations reminded me of the beauty of human connection, the way stran
 ###### **Landing in Paradise (Slightly Exhausted, but Grateful):**
 
 Since my apartment was still occupied by Airbnb Guests till 4 days later, i decided to stay at my friends, Rebekka's, place who was waiting for my arrival patiently. A sense of calm washed over me, when I finally arrived at her place after a hectic day of moving out and cleaning my apartment in Santo Domingo. And I couldn't have been happier to spend the first days in my new home with a familiar face around me.
+
+{% include onehalf.html image="/images/imagine.jpg" alt="" %}
+{% include onehalf.html image="/images/imagine.jpg" alt="" %}
 
 The first day in Cabarete was dedicated to the restorative power of sleep. I was basically switching position between the sofa and the bed, embracing the slow pace. It was a stark contrast to the relentless energy of city life, a deliberate shift towards a more mindful approach to time, giving me the time to reflect about the previous day and my year ahead.
 

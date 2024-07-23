@@ -49,11 +49,10 @@ about-image: /images/beyou.jpg
         <a class="p-2 break-inside-avoid block hover:scale-105" href="{{ post.url }}">
 
           <!-- Background image -->
-          <div class="bg-cover aspect-square min-h-64 md:min-h-72 lg:min-h-[22rem] lg:max-h-[22rem]" style="background-image:url('{{ post.featured_image }}');"></div>
-
+          <div class="bg-cover aspect-square min-h-64 md:min-h-72 lg:min-h-[22rem] lg:max-h-[22rem] mb-48" style="background-image:url('{{ post.featured_image }}');">
           <!-- Text container  -->
-          <div class="p-3 relative -top-16 left-3 bg-white min-h-56 sm:min-h-52 md:min-h-48">
-              
+            <div class="p-3 relative top-48 left-3 bg-white min-h-56 sm:min-h-52 md:min-h-48">
+                
               <p>
               {% for item in post.categories %}
                   <span class="tag"> {{item}} </span>
@@ -67,6 +66,10 @@ about-image: /images/beyou.jpg
               </p>
 
           </div>
+
+          </div>
+
+
         </a>
 
       {% endfor %}
