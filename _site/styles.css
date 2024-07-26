@@ -1285,8 +1285,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-48 {
-  margin-bottom: 12rem;
+.mb-40 {
+  margin-bottom: 10rem;
 }
 
 .mb-6 {
@@ -2492,6 +2492,10 @@ video {
     margin-bottom: 0px;
   }
 
+  .sm\:mb-36 {
+    margin-bottom: 9rem;
+  }
+
   .sm\:ml-16 {
     margin-left: 4rem;
   }
@@ -2643,6 +2647,10 @@ video {
     margin-bottom: 4rem;
   }
 
+  .md\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
   .md\:ml-72 {
     margin-left: 18rem;
   }
@@ -2757,6 +2765,10 @@ video {
 
   .lg\:-mt-56 {
     margin-top: -14rem;
+  }
+
+  .lg\:mb-12 {
+    margin-bottom: 3rem;
   }
 
   .lg\:ml-\[60\%\] {

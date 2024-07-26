@@ -50,8 +50,8 @@ These conversations reminded me of the beauty of human connection, the way stran
 
 Since my apartment was still occupied by Airbnb Guests till 4 days later, i decided to stay at my friends, Rebekka's, place who was waiting for my arrival patiently. A sense of calm washed over me, when I finally arrived at her place after a hectic day of moving out and cleaning my apartment in Santo Domingo. And I couldn't have been happier to spend the first days in my new home with a familiar face around me.
 
-{% include onehalf.html image="/images/imagine.jpg" alt="" %}
-{% include onehalf.html image="/images/imagine.jpg" alt="" %}
+{% include onesingle.html image="/images/imagine.jpg" alt="" %}
+
 
 The first day in Cabarete was dedicated to the restorative power of sleep. I was basically switching position between the sofa and the bed, embracing the slow pace. It was a stark contrast to the relentless energy of city life, a deliberate shift towards a more mindful approach to time, giving me the time to reflect about the previous day and my year ahead.
 
